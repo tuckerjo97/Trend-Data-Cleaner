@@ -267,7 +267,7 @@ Store.df[Store.df$Store_Name %in% c("Zipcar 1920 S Halsted"),]$Store_Name <- "Zi
 Store.df[Store.df$Store_Name %in% c("Hai Woon Dae\n\n\n\n6240 N. California Ave.\n\n\n\nchicago Il 60659"),]$Store_Name <- "Hai Woon Dae"
 
 
-###### WARNING: MAC CLEANONG FOR SPECIAL CHARACTERS DOESN"T WORK FOR WINDOMS
+###### WARNING: MAC CLEANING FOR SPECIAL CHARACTERS DOESN"T WORK FOR WINDOWS
 
 ### Cleaning Out Non-Stores (Parks, Trails, Railways, ect.) ###
 delete <- c("#8 Halsted Bus/southbound To 79th", "Amtrak Train 303 To Bloomington", "Bloomingdale Trail - The 606", "Burlington Park", "Chicago", "Chicago Trolley Co. Stop #1", "Chicago Trolley Co. Stop #3", "Humboldt Park", "Shedd Park", "Virgin America Flight 201")
